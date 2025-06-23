@@ -1,0 +1,9 @@
+<templateSet group="Vue">
+  <template name="vf" value="&lt;$div$ v-for=&quot;(v,i) in $item$&quot; :key=&quot;i&quot;&gt;&#10; &#10;&lt;/$div$&gt;" description="v-for" toReformat="false" toShortenFQNames="true">
+    <variable name="div" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

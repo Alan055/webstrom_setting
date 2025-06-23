@@ -1,0 +1,13 @@
+<keymap version="1" name="Eclipse (Mac OS X) copy" parent="Eclipse (Mac OS X)">
+  <action id="IntroduceVariable" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta f" />
+  </action>
+  <action id="SelectCircleReplacerAction">
+    <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="Vcs.Log.GoToRef" />
+</keymap>

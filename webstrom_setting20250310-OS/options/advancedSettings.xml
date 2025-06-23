@@ -1,0 +1,9 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="git.clone.recurse.submodules" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

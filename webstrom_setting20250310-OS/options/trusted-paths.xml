@@ -1,0 +1,142 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/.config/clash" value="true" />
+        <entry key="$USER_HOME$/Desktop/GDM/beifen" value="true" />
+        <entry key="$USER_HOME$/Desktop/GDM/biz-model" value="true" />
+        <entry key="$USER_HOME$/Desktop/GDM/gcbp-gdm-widget-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/GDM/备份" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/auto-view-movie" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/erp_h5" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/erp_wx" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/getting-started-app" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/lucky-you-api-master" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/lucky-you-web-master" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/music" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/my-crawler-node" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/my-crawler-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/script" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/test/my-project" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/testWebpack5" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/werplayer-node" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/werplayer-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/小蜻蜓/dragonfly-h5" value="true" />
+        <entry key="$USER_HOME$/Desktop/My/小蜻蜓/dragonfly-wx" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/midai/fragment-schedule-h5" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/midai/suipian-crawler-node" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/COMMON/annotation" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/COMMON/biz-model" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/COMMON/gcbp-common-plugin-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/COMMON/gcbp-gdm-widget-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/COMMON/gcbp-income-gdm-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/COMMON/pmlead-common-widgets-app" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/COMMON/pmlead-common-widgets-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/DEMO/cost-demoweb" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/GCDP/gcdp-template-bill-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/GCDP/gcdp-template-dict-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/GCDP/gcp-cli-seed-plugins-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/GCDP/gcp-web-framework" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/GCDP/gdm" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/GCDP/ui-components" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/Other/gcbp-material-warehouse-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/basic-components" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcbp-plugins" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcbp-web-common-business" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcbp-web-framework" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcdp-common-app-container-mobile" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcdp-common-app-container-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcdp-template-bill-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcdp-template-dict-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcdp-template-meta" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcp-cli" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcp-cli-seed-plugins-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcp-cli-seed-vue2-app" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/gcp-cli/packages/gcp-cli" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/plugins/gcbp-cost-homepage-plugins-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/个人/annotation" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/企业定额管理/gcbp-cost-enterprise-quota-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/公共业务/gcbp-pml-biz-conf-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/其他收入合同/gcbp-income-other-contract-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/内部产值预算" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/内部产值预算/gcbp-internal-output-value-budget-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/变更管理/gcbp-income-alteration-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/合同/bcegc-income-contract-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/合同/bcegc-income-disclosure-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/合同/gcbp-income-contract-plugins-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/合同/gcbp-income-contract-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/合同/gcbp-income-disclosure-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/基础设置/gcbp-base-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/基础设置/gcbp-config-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/工程竣工" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/工程竣工/gcbp-income-settlement-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/成本分析/gcbp-cost-project-cost-analysis-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/支出合同签订/gcbp-procurement-contract-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/收入分析/gcbp-capital-homepage-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/收入分析/gcbp-comprehensive-homepage-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/收入分析/gcbp-income-homepage-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/收入分析/gcbp-income-statistic-analysis-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/施工图预算" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/施工图预算/gcbp-income-budget-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/机械设备使用管理/gcbp-equipment-use-management-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/机械设备过程结算/gcbp-procurement-settlement-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/机械设备过程结算/gcbp-procurement-settlement-web/src/pages/labor-final-settlement/mock" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/机械设备过程结算/gcbp-procurement-settlement-web/src/pages/material-procurement-final-settlement/mock" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/机械设备进出场/gcbp-equipment-in-out-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/材料认价/gcbp-income-price-recognition-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/甲方报量" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/甲方报量/gcbp-income-quantity-reported-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/签证管理/gcbp-income-visa-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/索赔管理" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/索赔管理/gcbp-income-claim-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/编制成本计划/gcbp-cost-costplan-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/自动化测试/gcbp-autotest-ui" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/计划成本核算/gcbp-cost-accounting-plugins-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/计划成本核算/gcbp-cost-project-cost-accounting-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/计划成本核算/gcbp-procurement-contract-framework-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/资金管理迭代/gcbp-capital-transactions-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/资金计划/gcbp-capital-plan-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/项目立项" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/项目立项/bcegc-comprehensive-project-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/项目立项/gcbp-comprehensive-project-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/项目策划/bcegc-comprehensive-scheme-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/项目策划/gcbp-comprehensive-contract-plan-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/Work/广联达/项目策划/gcbp-comprehensive-scheme-web" value="true" />
+        <entry key="$USER_HOME$/Desktop/pdfToHtml" value="true" />
+        <entry key="$USER_HOME$/Desktop/test" value="true" />
+        <entry key="$USER_HOME$/Desktop/tuitui" value="true" />
+        <entry key="$USER_HOME$/Desktop/临时" value="true" />
+        <entry key="$USER_HOME$/Downloads" value="true" />
+        <entry key="$USER_HOME$/Downloads/PmleadOutputValueBasicTable" value="true" />
+        <entry key="$USER_HOME$/Downloads/VTable" value="true" />
+        <entry key="$USER_HOME$/Downloads/bpmn-view" value="true" />
+        <entry key="$USER_HOME$/Downloads/demo-web" value="true" />
+        <entry key="$USER_HOME$/Library/Caches/JetBrains/WebStorm2021.2/demo/LearnJavaScriptProject" value="true" />
+        <entry key="$USER_HOME$/Library/Containers/com.tencent.WeWorkMac/Data/Documents/Profiles/6F590724B43EE430053B95DD03485D9B/Caches/Files/2024-07/67afa5ce6bcd52ad14415524c02ad8ed" value="true" />
+        <entry key="$USER_HOME$/Library/Containers/com.tencent.WeWorkMac/Data/Documents/Profiles/6F590724B43EE430053B95DD03485D9B/Caches/Files/2024-08/67afa5ce6bcd52ad14415524c02ad8ed" value="true" />
+        <entry key="$USER_HOME$/Library/Containers/com.tencent.WeWorkMac/Data/Documents/Profiles/6F590724B43EE430053B95DD03485D9B/Caches/Files/2024-12/6ba9121d4dd8077600014a2fd70363ba" value="true" />
+        <entry key="$USER_HOME$/Library/Containers/com.tencent.WeWorkMac/Data/Documents/Profiles/6F590724B43EE430053B95DD03485D9B/Caches/Files/2024-12/73caa6b83861cc671cbac32ede857acd" value="true" />
+        <entry key="$USER_HOME$/Library/Containers/com.tencent.WeWorkMac/Data/Documents/Profiles/6F590724B43EE430053B95DD03485D9B/Caches/Files/2024-12/8eb2b0d9d2530b4f5433dc11cdfe9a55" value="true" />
+        <entry key="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Work/广联达/gcdp-common-app-container-web" value="true" />
+        <entry key="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Work/米袋/fragment-schedule-h5" value="true" />
+        <entry key="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Work/米袋/suipian-crawler-node" value="true" />
+        <entry key="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Work/米袋/suipian-crawler-web" value="true" />
+        <entry key="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Work/米袋/suipianst-h5" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/Work/广联达/甲方报量" />
+        <option value="$USER_HOME$/Desktop/Work/广联达" />
+        <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Work/广联达" />
+        <option value="$USER_HOME$/Downloads" />
+        <option value="$USER_HOME$/Desktop/My" />
+        <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Work/米袋" />
+        <option value="$USER_HOME$/Desktop/Work/midai" />
+        <option value="$USER_HOME$/.config" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,33 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="index" type="AUTO_DETECTED" />
+      <mapping ext="swig" type="HTML" />
+      <mapping ext="java" type="JSX Harmony" />
+      <mapping pattern="timer" type="JavaScript" />
+      <mapping pattern="bcd" type="PLAIN_TEXT" />
+      <mapping pattern="signature" type="PLAIN_TEXT" />
+      <mapping pattern="function.stylus" type="PLAIN_TEXT" />
+      <mapping pattern=".env.mode" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile1" type="PLAIN_TEXT" />
+      <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
+      <mapping pattern="apple-app-site-association" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="php" type="PLAIN_TEXT" />
+      <mapping ext="gdm" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
+      <mapping ext="mjs不要删了" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping ext="exe" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="text" type="PLAIN_TEXT" />
+      <mapping pattern="describe.json" type="TypeScript" />
+      <removed_mapping ext="wxml" approved="true" type="HTML" />
+      <removed_mapping ext="wxss" approved="true" type="SCSS" />
+      <removed_mapping ext="wxss" approved="true" type="Sass" />
+      <removed_mapping pattern="wxml" approved="true" type="HTML" />
+    </extensionMap>
+  </component>
+</application>

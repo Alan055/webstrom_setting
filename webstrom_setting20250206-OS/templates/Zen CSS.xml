@@ -1,0 +1,25 @@
+<templateSet group="Zen CSS">
+  <template name="wid" value="width: $END$;" description="widows:...;" toReformat="true" toShortenFQNames="true" />
+  <template name="bag" value="background: url(&quot;$VAR0$&quot;) no-repeat;&#10;background-size: 100% 100%;&#10;" description="bgImage" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+    </context>
+  </template>
+  <template name="cen" value="display: flex;&#10;justify-content: center;&#10;align-items: center;" description="弹性布局居中" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="..." value="overflow: hidden;&#10;text-overflow:ellipsis;&#10;white-space:nowrap;" description="单行溢出..." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="col" value="display: flex;&#10;flex-direction: column;&#10;justify-content: center;&#10;align-items: center;" description="弹性布局竖向居中" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

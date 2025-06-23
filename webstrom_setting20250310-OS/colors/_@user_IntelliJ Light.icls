@@ -1,0 +1,27 @@
+<scheme name="_@user_IntelliJ Light" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2023-05-30T10:00:30</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2021.2.4.0.0</property>
+    <property name="modified">2023-05-30T10:59:16</property>
+    <property name="originalScheme">IntelliJ Light</property>
+    <property name="partialSave">true</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Ayuthaya" />
+  <attributes>
+    <option name="GIT_TOOLBOX.EDITOR_INLINE_BLAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b7a7a7" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="248f8f" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

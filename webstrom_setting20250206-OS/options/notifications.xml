@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="File Watchers" shouldLog="false" />
+    <notification groupId="JSCS Messages" shouldReadAloud="true" />
+  </component>
+</application>

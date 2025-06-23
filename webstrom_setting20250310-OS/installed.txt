@@ -1,0 +1,8 @@
+org.jetbrains.settingsRepository
+cappuccino.intellij.plugin
+com.codegpt.CodeGPT
+com.service.char.format
+com.github.passerr.idea.plugins
+com.ytw88.weappsupport
+com.marscode
+zielu.gittoolbox

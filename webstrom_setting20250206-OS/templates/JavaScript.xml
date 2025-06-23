@@ -1,0 +1,92 @@
+<templateSet group="JavaScript">
+  <template name="lo" value="console.log(&quot;$PARAM$&quot;)" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="of" value="for(let val of $PATH$){&#10;&#9;$END$&#10;}" description="for...of" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fof" value="for (let [i, v] of $PATH$.entries()) {&#10;&#9;$END$&#10;}" description="for...of(v,i)" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="import $END$ from &quot;$MODULE$&quot;;" description="Import statement - import b from 'a'" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="imvuex" value="import {mapState,mapMutations,mapActions} from 'vuex';" description="import vuex" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="serget" value="service.get(this,'$UTL$',{$PATH$}).then(function(result){&#10;&#9;console.log(result)&#10;&#9;$END$&#10;},function(err){&#10;&#9;console.log(err)&#10;})" description="service get" toReformat="false" toShortenFQNames="true">
+    <variable name="UTL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="serpost" value="service.post(this,'$UTL$',{$PATH$}).then((result)=&gt;{&#10;&#9;let res = result.data&#10;&#9;if(res.code === 0){&#10;&#9;&#9;$END$&#10;&#9;}else{&#10;&#9;&#9;this.$Modal.al_default({status: 'warning', content: res.message})&#10;&#9;}&#10;})" description="service post" toReformat="true" toShortenFQNames="true">
+    <variable name="UTL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="setm" value="this.setData({key: &quot;$MODULE_VAR$&quot;,value: $MODULE_VAR$})" description="setMutations" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mod" value="this.$Modal.al_default({status: 'warning', content: '$PATH$'})" description="$Modal" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="al_table" value="&lt;div class=&quot;table&quot;&gt;&#10;&#9;&lt;!--tableTop: 表格头部 ,tableContent: 表格内容 ,page_total:后台数据总条数 ,page_page: 当前第几页 ,&#10;&#9;page_pageTotal: 总共多少页 ,page_size: 一页显示多少条数据 ,page_change:点击分页时的事件，loading：是否在加载中状态--&gt;&#10;&#9;&lt;Table&#10;&#9;&#9;:tableTop=&quot;tableTop&quot;&#10;&#9;&#9;:tableContent=&quot;tableContent&quot;&#10;&#9;&#9;:page_page=&quot;pagination_page&quot;&#10;&#9;&#9;:page_pageTotal=&quot;Math.ceil(pagination_total / pagination_size)&quot;&#10;&#9;&#9;:page_total=&quot;pagination_total&quot;&#10;&#9;&#9;:page_size=&quot;pagination_size&quot;&#10;&#9;&#9;:page_change=&quot;pagination_change&quot;&#10;&#9;&#9;:loading=&quot;loading&quot;&gt;&#10;&#9;&#9;&lt;ul class=&quot;tableTop&quot;&gt;&#10;&#9;&#9;&#9;&lt;li v-for=&quot;(v,i) in tableTop&quot; :key=&quot;i&quot;&gt;{{v}}&lt;/li&gt;&#10;&#9;&#9;&lt;/ul&gt;&#10;&#9;&#9;&lt;ul class=&quot;tableContent&quot; v-for=&quot;(v,i) in tableContent&quot; :key=&quot;i&quot; v-if=&quot;tableContent.length&gt;0&amp;&amp;!loading&quot;&gt;&#10;&#9;&#9;&#9;&lt;li&gt;{{}}&lt;/li&gt;&#10;&#9;&#9;&lt;/ul&gt;&#10;&#9;&lt;/Table&gt;&#10;&lt;/div&gt;&#10; &lt;!--&#10;js:&#10;&#9;&#9;tableTop: ['序号', '期号', '号码', '生成时间', '状态'], // 表格头&#10;&#9;&#9;tableContent: [], // 表格内容&#10;&#9;&#9;load: false, // 是否出现正在加载中&#10;&#9;&#9;pagination_size: 10, // 一页的数据数&#10;&#9;&#9;pagination_total: 0, // 后台数据总数&#10;&#9;&#9;pagination_page: 0, // 当前页&#10;&#9;&#9;loading: false, // 加载中&#10;&#9;// 点击分页按钮事件  &#10;&#9;pagination_change(i) {&#10;&#9;&#9;// i是当前点击的页数，但我们后台是从0开始的  所以要减1&#10;&#9;&#9;this.pagination_page = i - 1&#10;&#9;&#9;this.findData() // 查询数据&#10;&#9;}&#10;&#9;&#10; // 获取表格的数据&#10;&#9;findData() {&#10;&#9;&#9;this.tableContent = [] // 初始化清空列表数据&#10;&#9;&#9;// 整理入参数据&#10;&#9;&#9;let obj = {} &#10;&#9;&#9;this.loading = true // 打开加载中&#10;&#9;&#9;service.postDefault(this, '', obj).then(function (result) {&#10;&#9;&#9;&#9;let res = result.data&#10;&#9;&#9;&#9;if (res.code === 0) {&#10;&#9;&#9;&#9;&#9;this.tableContent = res.data.list&#10;&#9;&#9;&#9;&#9;this.pagination_total = res.data.totalCount&#10;&#9;&#9;&#9;} else {&#10;&#9;&#9;&#9;&#9;this.$Modal.al_default({status: 'warning', content: res.message})&#10;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;this.loading = false // 关闭加载中&#10;&#9;&#9;}, function (err) {&#10;&#9;&#9;&#9;console.log(err)&#10;&#9;&#9;&#9;this.loading = false // 关闭加载中&#10;&#9;&#9;})&#10;&#9;},&#10;--&gt;&#10;&lt;!--&#10;style:&#10;.table {&#10;&#9;margin-top: 10px;&#10;&#9;height: calc(~&quot;100% - 64px&quot;);&#10;&#9;ul {&#10;&#9;&#9;display: flex;&#10;&#9;&#9;justify-content: space-between;&#10;&#9;&#9;align-items: center;&#10;&#9;&#9;li {&#10;&#9;&#9;&#9;display: flex;&#10;&#9;&#9;&#9;justify-content: center;&#10;&#9;&#9;&#9;align-items: center;&#10;&#9;&#9;&#9;width: 20%;&#10;&#9;&#9;&#9;border-right: 1px solid #ccc;&#10;&#9;&#9;&#9;height: 36px;&#10;&#9;&#9;&#9;font-size: 14px;&#10;&#10;&#9;&#9;&#9;&amp;:last-child {&#10;&#9;&#9;&#9;&#9;border-right: none;&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;}&#10;&#9;.tableTop {&#10;&#9;&#9;background: #f6f6f6;&#10;&#9;&#9;border: 1px solid #ccc;&#10;&#9;}&#10;&#9;.tableContent {&#10;&#9;&#9;color: #666;&#10;&#9;&#9;border-left: 1px solid #ccc;&#10;&#9;&#9;border-right: 1px solid #ccc;&#10;&#9;&#9;li {&#10;&#9;&#9;&#9;border-bottom: 1px solid #ccc;&#10;&#9;&#9;&#9;border-right: 1px solid #ccc;&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;--&gt;" description="alan_table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="//" value="/**&#10; * [$fnName$ $fnDesc$]&#10; * @param  {[$type$]} $param$ []&#10; * @return {[$returnType$]} []&#10; */" description="多行注释" toReformat="false" toShortenFQNames="true">
+    <variable name="fnName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fnDesc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="returnType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="time" value="console.time($NAME$)&#10;console.timeEnd($NAME$)" description="耗时" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="getR" value="this.getRowValue(record, '$PROP$')" description="gdm获取查询值" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

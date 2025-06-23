@@ -1,0 +1,8 @@
+cappuccino.intellij.plugin
+com.github.linrenen.uniappsupport
+com.github.passerr.idea.plugins
+com.intellij.zh
+com.service.char.format
+com.ytw88.weappsupport
+com.zxy.ijplugin.wechat-miniprogram
+zielu.gittoolbox
